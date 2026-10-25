@@ -1,0 +1,29 @@
+{
+  "cssSource": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@400..700&display=swap",
+  "fonts": [
+    {
+      "font": "Noto Naskh Arabic",
+      "subset": "arabic",
+      "url": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN2DHV20Lg.woff2",
+      "file": "assets/fonts/naskh-arabic.woff2"
+    },
+    {
+      "font": "Noto Naskh Arabic",
+      "subset": "latin",
+      "url": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN2GHV0.woff2",
+      "file": "assets/fonts/naskh-latin.woff2"
+    },
+    {
+      "font": "Noto Sans Arabic",
+      "subset": "arabic",
+      "url": "https://fonts.gstatic.com/s/notosansarabic/v33/nwpCtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlj4wv4r4xA.woff2",
+      "file": "assets/fonts/sans-arabic.woff2"
+    },
+    {
+      "font": "Noto Sans Arabic",
+      "subset": "latin",
+      "url": "https://fonts.gstatic.com/s/notosansarabic/v33/nwpCtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlj41v4o.woff2",
+      "file": "assets/fonts/sans-latin.woff2"
+    }
+  ]
+}

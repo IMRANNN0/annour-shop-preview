@@ -1,0 +1,122 @@
+{
+  "status": "Client-requested local prototype; assortment and production identity pending",
+  "direction": "Arabic product catalogue with actual supplier packshots and direct navigation",
+  "palette": {
+    "paper": "#F7F3EA",
+    "surface": "#FFFDFA",
+    "ink": "#26231E",
+    "gold": "#B68128",
+    "goldText": "#78511D",
+    "goldSoft": "#EEE0BE",
+    "muted": "#6C6254",
+    "border": "#DDD4C4",
+    "controlBorder": "#837766",
+    "danger": "#9B332D",
+    "success": "#376347"
+  },
+  "typography": {
+    "display": "Noto Sans Arabic, Tahoma, sans-serif",
+    "body": "Noto Sans Arabic, Tahoma, sans-serif",
+    "wordmark": "Noto Naskh Arabic, Georgia, serif",
+    "latin": "Noto Sans Arabic, Tahoma, sans-serif",
+    "localFonts": "assets/fonts/naskh-arabic.woff2, assets/fonts/sans-arabic.woff2 and Latin subsets",
+    "bodyPx": 15,
+    "bodyLineHeight": 1.85,
+    "displayPx": [
+      32,
+      44
+    ],
+    "sectionPx": [
+      22,
+      28
+    ],
+    "productTitlePx": [
+      15,
+      18
+    ],
+    "weights": {
+      "heading": 650,
+      "product": 600,
+      "body": 400
+    },
+    "rules": [
+      "No Arabic letter spacing",
+      "Naskh reserved for the provisional wordmark",
+      "French product names use the same readable sans family",
+      "Fonts are local; final identity and launch languages remain undecided"
+    ],
+    "heroProductTitlePhonePx": 14,
+    "heroProductFrenchPhonePx": 11
+  },
+  "spacingPx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radius": {
+    "controlsPx": 4,
+    "productImagesPx": 6,
+    "productShelfPx": 8,
+    "dialogPx": 8
+  },
+  "elevation": {
+    "base": "none",
+    "dialog": "0 24px 80px rgb(38 35 30 / .18)"
+  },
+  "icons": {
+    "style": "authored SVG, monoline 1.6px",
+    "emoji": false,
+    "iconOnlyControlsHaveAccessibleNames": true
+  },
+  "motion": {
+    "durationMs": 140,
+    "easing": "cubic-bezier(.23,1,.32,1)",
+    "use": "Fine-pointer press feedback only; scale .97 controls and .985 product/category links",
+    "keyboard": "instant; transforms and transitions disabled",
+    "filters": "instant",
+    "hover": "gated by hover:hover and pointer:fine",
+    "reducedMotion": "none"
+  },
+  "layout": {
+    "desktopMaxPx": 1240,
+    "breakpointsPx": [
+      480,
+      760,
+      1000
+    ],
+    "touchTargetMinPx": 44,
+    "hero": "Direct Arabic heading, one browse CTA, working search and three actual clickable supplier packshots",
+    "categories": "Eight actual families; 4 columns desktop, 2 at <=760px",
+    "catalogue": "8 sample supplier families, 24 products, distinct category routes; 3 product columns desktop, 2 at <=1000px",
+    "homepageProducts": "4 columns desktop, 2 at <=760px",
+    "mobileGutterPx": 16,
+    "categoryNavigation": "Desktop sidebar; labelled native select with all + 8 categories and current selection at <=760px",
+    "photography": "Full packshots with object-fit:contain on neutral surface; original package colours preserved, no blending"
+  },
+  "content": {
+    "language": "Arabic RTL prototype with French source names; launch languages undecided",
+    "assortment": "24 illustrative products, three per supplier category, not confirmed stock",
+    "commercialAction": "Browse and inspect only; objective undecided",
+    "prohibited": [
+      "invented prices or availability",
+      "medical claims",
+      "fake testimonials/certifications",
+      "clothes/perfume store inventory",
+      "production purchase/contact workflow"
+    ]
+  },
+  "states": {
+    "focus": "3px dark-gold outline with 4px offset; main focus has no outline",
+    "disabled": "native disabled controls with .5 opacity",
+    "loading": "fixed image slot and local startup status; no simulated network spinner",
+    "imageError": "visible Arabic missing-image label with accessible description",
+    "empty": "Arabic message and recovery button clearing query and subcategory",
+    "activeFilter": "charcoal fill and aria-pressed=true",
+    "clearSearch": "Clears query only, preserves subcategory; disabled when query is empty"
+  }
+}
